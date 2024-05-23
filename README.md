@@ -38,7 +38,7 @@ this project is for educational purposes
    ```bash
    python manage.py runserver
    ```
-2. Open your browser and navigate to `http://localhost:8000` to see the application running.
+2. Open your browser and navigate to <a href="http://localhost:8000/" target="_blank">this link</a> to see the application running.
 
 ---
 
