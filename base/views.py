@@ -1,3 +1,4 @@
+from django.views.generic.edit import CreateView
 from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
 
@@ -18,3 +19,6 @@ class TaskDetail(DetailView):
     context_object_name = 'task'
 
     template_name = 'base/task.html'
+
+
+

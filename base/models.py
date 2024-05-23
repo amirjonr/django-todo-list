@@ -17,4 +17,7 @@ class Task(models.Model):
 
     class Meta:
         ordering = ['is_completed']
+        verbose_name = 'Task'
+        verbose_name_plural = 'Tasks'
+        
 
