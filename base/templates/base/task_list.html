@@ -2,9 +2,13 @@
     My to do list
 </h1>
 
+<a href="{% url 'task-create' %}">add task</a>
+
 <table>
     <tr>
         <th>Item</th>
+        <th></th>
+        <th></th>
         <th></th>
     </tr>
     {% for task in tasks %}
@@ -14,6 +18,8 @@
         </td>
         <td>
             <a href="{% url 'task' task.id %}" >View</a>
+            <a href="{% url 'task-update' task.id %}" >Edit</a>
+            <a href="{% url 'task-delete' task.id %}" >Delete</a>
         </td>
     </tr>
     {% empty %}
