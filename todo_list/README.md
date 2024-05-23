@@ -3,7 +3,7 @@ this project is for educational purposes
 
 ## Table of contents
 
-- [Getting started](#getting_started)
+- [Getting started](#getting-started)
 - [Setting Up the Development Environment](#setting-up-the-development-environment)
 - [Running the Application](#running-the-application)
 
