@@ -12,31 +12,31 @@ this project is for educational purposes
 1. Clone repository:
 
     ```bash
-        git clone git@github.com:amirjonr/django-todo-list.git 
+   git clone git@github.com:amirjonr/django-todo-list.git 
     ```
 2. Navigate to project directory
     ```bash
-        cd django-todo-list 
+   cd django-todo-list 
     ```
 
 ## Setting Up the Development Environment
 1. Install Django via pip if not installed yet
     ```bash
-       pip install django
+   pip install django
     ```
 2. Run migrations
-   ```bash   
-       python manage.py migrate 
+   ```bash
+   python manage.py migrate 
    ```
 3. Create superuser
    ```bash 
-       python manage.py createsuperuser
+   python manage.py createsuperuser
    ```
 
 ## Running the Application
 1. Run server locally
    ```bash
-       python manage.py runserver
+   python manage.py runserver
    ```
 2. Open your browser and navigate to `http://localhost:8000` to see the application running.
 
